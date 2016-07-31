@@ -42,10 +42,13 @@
   },
   "dependencies": {
     "express": "^4.14.0",
+    "node-sass": "^3.8.0",
     "react": "^15.2.1",
     "react-dom": "^15.2.1",
-    "webpack": "1.13.1",
-    "rimraf": "2.5.3"
+    "react-facebook-login": "^3.1.0",
+    "rimraf": "2.5.3",
+    "sass-loader": "^4.0.0",
+    "webpack": "1.13.1"
   },
   "scripts": {
     "prestart": "npm run build",
