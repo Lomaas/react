@@ -17,6 +17,7 @@ webpack(config).run(function(err, stats) {
     process.exit(1);
   }
 
+
   var openCommand = process.platform === 'win32' ? 'start' : 'open';
   console.log('Successfully generated a bundle in the build folder!');
   console.log('The bundle is optimized and ready to be deployed to production.');
